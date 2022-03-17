@@ -2,7 +2,6 @@
 
 /**
   * print_alphabet_x10 - prints 10 times the alphabet in lowercase
-  *
   * Returns: Always 0
   */
 
@@ -13,7 +12,7 @@ void print_alphabet_x10(void)
 
 	count = 0;
 	while (count < 10)
-	{ 
+	{
 		for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
 		{
 			_putchar(alphabet);
